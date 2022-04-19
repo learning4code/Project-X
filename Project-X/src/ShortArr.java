@@ -1,10 +1,10 @@
 import java.util.Arrays;
 import dsaA.MaximumValue;
 public class ShortArr {
-
+//comment added for testing
 	public static void main(String[] args) {
 		int[] arr= {52,46,172,435,3};
-		MaximumValue mx=new MaximumValue();
+		MaximumValue mx=new MaximumValue(); 
 		mx.selectionShort(arr);
 		System.out.println(Arrays.toString(arr));
 		//bubbleShortArr(arr);
